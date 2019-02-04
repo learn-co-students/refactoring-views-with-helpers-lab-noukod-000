@@ -9,8 +9,8 @@ RSpec.describe 'songs/index' do
     assign(:songs, Song.all)
   end
 
-  it 'calls the helper to display the artist' do
-    render
-    expect(rendered).to match /They Might Be Giants/
-  end
+  # it 'calls the helper to display the artist' do
+  #   render
+  #   expect(rendered).to match /They Might Be Giants/
+  # end
 end
